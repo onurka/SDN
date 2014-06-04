@@ -48,6 +48,6 @@ class CustomTopo(Topo):
             self.host_index += 1
 
         return node 
-        
-                    
+                            
 topos = { 'custom': ( lambda: CustomTopo() ) }
+
